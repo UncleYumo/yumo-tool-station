@@ -11,8 +11,9 @@ export default defineConfig({
       injectInProd: false
     })
   ],
+  base: '/tool-station/',
   server: {
-    port: 8099,
-    open: true,
+    port: 8696,
+    open: true
   },
 })

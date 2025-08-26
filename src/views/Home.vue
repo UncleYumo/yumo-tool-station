@@ -58,6 +58,11 @@ const demos = ref<Demo[]>([
     title: '浏览器导航综合案例',
     description: '模拟浏览器导航栏，包括前进、后退、刷新及其相关API。',
     path: '/browser-navigation',
+  },
+  {
+    title: '加密算法原理与实现',
+    description: '简单实现对称加密与非对称加密（RSA算法）。',
+    path: '/common-cryptography',
   }
 ])
 

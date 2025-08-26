@@ -44,6 +44,14 @@ const router = createRouter({
             }
         },
         {
+            path: '/common-cryptography',
+            name: 'CommonCryptography',
+            component: () => import('../views/CommonCryptography/CommonCryptography.vue'),
+            meta: {
+                title: '常用加密算法'
+            }
+        },
+        {
             // 404 页面重定向到首页
             path: '/:pathMatch(.*)*',
             name: '404',

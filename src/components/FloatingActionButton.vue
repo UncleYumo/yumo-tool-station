@@ -45,7 +45,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, reactive, onMounted, onUnmounted, nextTick, markRaw, shallowRef } from 'vue'
+import { ref, reactive, onMounted, onUnmounted, markRaw, shallowRef } from 'vue'
 import { useRouter } from 'vue-router'
 
 // 图标组件 - 使用 markRaw 避免响应式包装

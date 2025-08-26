@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { watch } from 'vue'
 import { useRoute } from 'vue-router'
+import FloatingActionButton from './components/FloatingActionButton.vue'
 
 const route = useRoute()
 
@@ -18,6 +19,7 @@ watch(
 
 <template>
   <router-view />
+  <FloatingActionButton />
 </template>
 
 <style>

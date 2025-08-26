@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { watch } from 'vue'
 import { useRoute } from 'vue-router'
-import FloatingActionButton from './components/FloatingActionButton.vue'
+import CommonHeader from './components/CommonHeader.vue'
 
 const route = useRoute()
 
@@ -18,8 +18,8 @@ watch(
 </script>
 
 <template>
+  <CommonHeader />
   <router-view />
-  <FloatingActionButton />
 </template>
 
 <style>

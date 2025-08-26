@@ -52,6 +52,23 @@ const router = createRouter({
             }
         },
         {
+            path: '/vue-router-case',
+            name: 'VueRouterCase',
+            component: () => import('../views/VueRouterCase/VueRouterCase.vue'),
+            meta: {
+                title: 'Vue Router 示例'
+            },
+            children: [
+                {
+                    path: ':caseType',
+                    component: () => import('../views/VueRouterCase/Component/CommonRouterPage.vue'),
+                    meta: {
+                        title: 'vue router 示例子目录'
+                    }
+                }
+            ]
+        },
+        {
             // 404 页面重定向到首页
             path: '/:pathMatch(.*)*',
             name: '404',

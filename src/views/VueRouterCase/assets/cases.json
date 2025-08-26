@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "鸡蛋",
+        "type": "chicken-egg",
+        "description": "鸡蛋，又名鸡卵、鸡子，是母鸡蛋的壳和蛋壳的内积物",
+        "flavour": "味甘，性平，无毒（煮熟后）"
+    },
+    {
+        "id": 2,
+        "name": "牛奶",
+        "type": "cow-milk",
+        "description": "牛奶，又名牛乳，是从母牛乳房中分泌出来的乳汁",
+        "flavour": "味甘，性微寒，补虚损"
+    },
+    {
+        "id": 3,
+        "name": "大米",
+        "type": "rice",
+        "description": "大米，又名稻米、白米，是稻谷经清理、砻谷、碾米等工序后制成的成品",
+        "flavour": "味甘，性平，补中益气"
+    },
+    {
+        "id": 4,
+        "name": "苹果",
+        "type": "apple",
+        "description": "苹果，又名平安果，是蔷薇科苹果亚科苹果属植物的果实",
+        "flavour": "味甘酸，性凉，生津润肺"
+    },
+    {
+        "id": 5,
+        "name": "猪肉",
+        "type": "pork",
+        "description": "猪肉，又名豚肉，是从家猪身上取得的肉类食品",
+        "flavour": "味甘咸，性平，滋阴润燥"
+    },
+    {
+        "id": 6,
+        "name": "白菜",
+        "type": "chinese-cabbage",
+        "description": "白菜，又名大白菜、结球白菜，是十字花科芸薹属的蔬菜",
+        "flavour": "味甘，性微寒，清热解毒"
+    }
+]

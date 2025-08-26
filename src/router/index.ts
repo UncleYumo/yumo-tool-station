@@ -8,7 +8,7 @@ const router = createRouter({
             name: 'Home',
             component: Home,
             meta: {
-                title: '羽沫工具站'
+                title: '羽沫 AI 工具站'
             }
         },
         {

@@ -52,7 +52,6 @@
           class="demo-card"
           :style="{ animationDelay: `${index * 100}ms` }"
           @click="navigateTo(demo.path)"
-          @touchend.passive="() => navigateTo(demo.path)"
         >
           <div class="demo-card-content">
             <h3 class="demo-title">{{ demo.title }}</h3>

@@ -69,6 +69,14 @@ const router = createRouter({
             ]
         },
         {
+            path: '/mute-time-helper',
+            name: 'MuteTimeHelper',
+            component: () => import('../views/MuteTimeHelper/MuteTimeHelper.vue'),
+            meta: {
+                title: '禁言时长助手'
+            }
+        },
+        {
             // 404 页面重定向到首页
             path: '/:pathMatch(.*)*',
             name: '404',

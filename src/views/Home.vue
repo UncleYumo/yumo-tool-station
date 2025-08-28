@@ -137,6 +137,12 @@ const demos = ref<Demo[]>([
     description: 'Vue Router 示例，包含基础用法、模块化、持久化存储、异步操作',
     path: '/vue-router-case',
     tags: ['Vue Router', '路由', '状态管理']
+  },
+  {
+    title: '禁言时长助手',
+    description: '智能生成随机禁言时长的实用工具，支持多种预设模式和青云特殊加成，完美适配移动端操作体验。',
+    path: '/mute-time-helper',
+    tags: ['工具', '随机生成', '响应式']
   }
 ])
 
